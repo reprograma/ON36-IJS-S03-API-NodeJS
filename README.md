@@ -267,12 +267,12 @@ Protocolos de comunicação são conjuntos de regras e normas que permitem a tro
 #### FTP (File Transfer Protocol)
 
 - **Descrição**: Protocolo para transferência de arquivos entre sistemas em uma rede TCP/IP.
-- **Uso comum**: Enviar e baixar arquivos de servidores, gerenciar arquivos em servidores remotos.
+- **Exemplo**: Enviar e baixar arquivos de servidores, gerenciar arquivos em servidores remotos.
 
 #### SMTP (Simple Mail Transfer Protocol)
 
 - **Descrição**: Protocolo para envio de e-mails.
-- **Uso comum**: Envio de e-mails de clientes de e-mail para servidores de e-mail e entre servidores de e-mail.
+- **Exemplo**: Envio de e-mails de clientes de e-mail para servidores de e-mail e entre servidores de e-mail.
 
 #### IMAP/POP3 (Internet Message Access Protocol/Post Office Protocol 3)
 
@@ -282,34 +282,22 @@ Protocolos de comunicação são conjuntos de regras e normas que permitem a tro
 #### DNS (Domain Name System)
 
 - **Descrição**: Protocolo que traduz nomes de domínio (como [www.exemplo.com](http://www.exemplo.com/)) em endereços IP que podem ser entendidos pelos dispositivos na rede.
-- **Uso comum**: Facilitar a navegação na web, permitindo o uso de nomes de domínio amigáveis em vez de endereços IP numéricos.
+- **Exemplo**: Facilitar a navegação na web, permitindo o uso de nomes de domínio amigáveis em vez de endereços IP numéricos.
 
 #### DHCP (Dynamic Host Configuration Protocol)
 
 - **Descrição**: Protocolo que atribui dinamicamente endereços IP a dispositivos em uma rede.
-- **Uso comum**: Facilitar a configuração de dispositivos em redes, permitindo que recebam automaticamente um endereço IP e outras configurações de rede.
+- **Exemplo**: Facilitar a configuração de dispositivos em redes, permitindo que recebam automaticamente um endereço IP e outras configurações de rede.
 
 #### SSH (Secure Shell)
 
 - **Descrição**: Protocolo para acesso remoto seguro a dispositivos em uma rede.
-- **Uso comum**: Acessar remotamente servidores e dispositivos para administração e gerenciamento seguros.
+- **Exemplo**: Acessar remotamente servidores e dispositivos para administração e gerenciamento seguros.
 
 #### WebSocket
 
 - **Descrição**: Protocolo que permite comunicação bidirecional em tempo real entre clientes e servidores.
-- **Uso comum**: Aplicações que requerem atualizações instantâneas, como chats online, notificações em tempo real e jogos multiplayer.
-
-#### Camadas do Modelo OSI
-
-O Modelo OSI (Open Systems Interconnection) é uma estrutura conceitual que padroniza as funções de um sistema de comunicação ou rede em sete camadas distintas. Cada camada tem uma função específica e se comunica com as camadas adjacentes:
-
-1. **Camada Física**: Transmissão e recepção de sinais elétricos, ópticos ou de rádio.
-2. **Camada de Enlace de Dados**: Proporciona uma transferência de dados livre de erros entre dois nós adjacentes.
-3. **Camada de Rede**: Determina como os dados são encaminhados e transmitidos entre diferentes redes.
-4. **Camada de Transporte**: Garante a entrega confiável de dados entre sistemas finais.
-5. **Camada de Sessão**: Gerencia sessões de comunicação entre aplicativos.
-6. **Camada de Apresentação**: Traduz dados entre o formato usado pela rede e o formato usado por aplicativos.
-7. **Camada de Aplicação**: Fornece serviços de rede diretamente aos aplicativos dos usuários finais.
+- **Exemplo**: Aplicações que requerem atualizações instantâneas, como chats online, notificações em tempo real e jogos multiplayer.
 
 #### Exemplos Práticos
 
@@ -336,34 +324,34 @@ Os protocolos de comunicação são essenciais para garantir que dispositivos de
 #### POST
 
 - **Descrição**: Utilizado para enviar dados ao servidor, geralmente para criar um novo recurso. O corpo da requisição contém os dados a serem enviados.
-- **Uso comum**: Enviar formulários, criar novos registros em um banco de dados, enviar dados para processamento.
+- **Exemplo**: Enviar formulários, criar novos registros em um banco de dados, enviar dados para processamento.
 
 <a id="put"></a>
 
 #### PUT
 
 - **Descrição**: Utilizado para atualizar completamente um recurso existente no servidor. Se o recurso não existir, o PUT pode criar um novo.
-- **Uso comum**: Atualizar informações de um recurso, como modificar um perfil de usuário ou atualizar uma entrada de banco de dados.
+- **Exemplo**: Atualizar informações de um recurso, como modificar um perfil de usuário ou atualizar uma entrada de banco de dados.
 
 <a id="patch"></a>
 
 #### PATCH
 
 - **Descrição**: Utilizado para atualizar parcialmente um recurso existente. Apenas as partes do recurso que precisam ser modificadas são enviadas.
-- **Uso comum**: Realizar atualizações parciais em um recurso, como alterar um único campo de um registro.
+- **Exemplo**: Realizar atualizações parciais em um recurso, como alterar um único campo de um registro.
 
 <a id="delete"></a>
 
 #### DELETE
 
 - **Descrição**: Utilizado para deletar um recurso do servidor.
-- **Uso comum**: Remover registros de um banco de dados, excluir arquivos, deletar contas de usuário.
+- **Exemplo**: Remover registros de um banco de dados, excluir arquivos, deletar contas de usuário.
 
 <a id="status-code"></a>
 
 #### Status Codes
 
-Os códigos de status HTTP são enviados pelo servidor em resposta a uma requisição HTTP do cliente. Eles indicam se a requisição foi bem-sucedida, se houve um erro ou se há necessidade de ações adicionais. Aqui estão alguns dos mais comuns:
+Os códigos de status HTTP são enviados pelo servidor em resposta a uma requisição HTTP do cliente. Eles indicam se a requisição foi bem-sucedida, se houve um erro ou se há necessidade de ações adicionais. Alguns dos mais comuns:
 
 #### 1xx: Informativo
 
@@ -399,7 +387,7 @@ Esses métodos e códigos de status são fundamentais para o funcionamento das a
 
 <a id="api"></a>
 
-### API (Interface de Programação de Aplicativos)**
+### API (Interface de Programação de Aplicativos)
 
 Uma API (Interface de Programação de Aplicativos) é um conjunto de regras e definições que permite que diferentes softwares se comuniquem entre si. Ela define as maneiras pelas quais diferentes componentes de software podem interagir, permitindo que aplicativos compartilhem dados e funcionalidades.
 
@@ -411,7 +399,7 @@ Uma API (Interface de Programação de Aplicativos) é um conjunto de regras e d
 
 <a id="rest"></a>
 
-### API REST (Representational State Transfer)**
+### API REST (Representational State Transfer)
 
 É um estilo arquitetural utilizado para projetar sistemas de software distribuídos, especialmente na web. Ela define um conjunto de princípios e padrões que promovem a criação de serviços web bem estruturados, escaláveis e de fácil manutenção. Uma API RESTful é uma API que segue os princípios e as práticas definidas pela arquitetura REST.
 
