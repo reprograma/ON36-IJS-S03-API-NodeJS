@@ -121,7 +121,8 @@ A infraestrutura física da Internet inclui cabos de fibra óptica submarinos, c
 
 <a id="oque-e-node"></a>
 
-**O que é Node.js?**
+## Node.js
+### O que é Node.js?
 
 [Node.js](https://nodejs.org/en) é um ambiente de tempo de execução (runtime) JavaScript de código aberto e multiplataforma que é utilizado para executar código JavaScript do lado do servidor. Ele permite que os desenvolvedores construam aplicações web escaláveis e de alto desempenho, usando JavaScript tanto no lado do cliente quanto no servidor.
 
@@ -129,7 +130,7 @@ Ele é baseado no motor V8 JavaScript da Google, que é o mesmo motor utilizado 
 
 <a id="historia-node"></a>
 
-**História e evolução do Node.js**
+### História e evolução do Node.js
 
 O [Node.js](https://nodejs.org/en) foi criado em 2009 por Ryan Dahl, como uma forma de permitir que JavaScript fosse executado no lado do servidor. A motivação por trás do Node.js era fornecer um ambiente de desenvolvimento rápido e eficiente para aplicações web em tempo real, como aplicações de bate-papo e streaming de vídeo.
 
@@ -137,7 +138,7 @@ Desde então, o Node.js passou por várias versões e continua a evoluir rapidam
 
 <a id="vantagens"></a>
 
-**Vantagens e casos de uso do Node.js**
+### Vantagens
 
 Algumas das vantagens do Node.js incluem:
 
@@ -168,7 +169,7 @@ O Node.js é uma poderosa plataforma para construir aplicações web escaláveis
 
 <a id="modulos"></a>
 
-## **Módulos**
+### Módulos
 
 **O que são módulos Node.js?**
 
@@ -251,6 +252,8 @@ O uso do TypeScript traz várias vantagens, especialmente em projetos de grande 
 
 Protocolos de comunicação são conjuntos de regras e normas que permitem a troca de informações entre dispositivos em uma rede. Eles definem como os dados são formatados, transmitidos e recebidos, garantindo que os dispositivos possam se comunicar de maneira eficaz e compreensível. Abaixo, estão alguns dos principais protocolos de comunicação usados na internet e em redes de computadores:
 
+## Protocolos de comunicação
+
 ### Principais Protocolos de Comunicação
 
 #### TCP/IP (Transmission Control Protocol/Internet Protocol)
@@ -309,6 +312,8 @@ Protocolos de comunicação são conjuntos de regras e normas que permitem a tro
 Os protocolos de comunicação são essenciais para garantir que dispositivos de diferentes fabricantes e sistemas operacionais possam se comunicar de maneira eficiente e segura na internet e em outras redes de computadores.
 
 <a id="http"></a>
+
+## HTTP
 
 ### Métodos HTTP
 
@@ -387,7 +392,7 @@ Esses métodos e códigos de status são fundamentais para o funcionamento das a
 
 <a id="api"></a>
 
-### API (Interface de Programação de Aplicativos)
+## API (Interface de Programação de Aplicativos)
 
 Uma API (Interface de Programação de Aplicativos) é um conjunto de regras e definições que permite que diferentes softwares se comuniquem entre si. Ela define as maneiras pelas quais diferentes componentes de software podem interagir, permitindo que aplicativos compartilhem dados e funcionalidades.
 
@@ -399,7 +404,7 @@ Uma API (Interface de Programação de Aplicativos) é um conjunto de regras e d
 
 <a id="rest"></a>
 
-### API REST (Representational State Transfer)
+## API REST (Representational State Transfer)
 
 É um estilo arquitetural utilizado para projetar sistemas de software distribuídos, especialmente na web. Ela define um conjunto de princípios e padrões que promovem a criação de serviços web bem estruturados, escaláveis e de fácil manutenção. Uma API RESTful é uma API que segue os princípios e as práticas definidas pela arquitetura REST.
 
