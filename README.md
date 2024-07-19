@@ -412,11 +412,11 @@ A arquitetura REST (Representational State Transfer) é um estilo arquitetural p
 
 Alguns dos princípios-chave de uma API REST incluem:
 
-- Recursos Identificáveis: Os recursos da API (por exemplo, usuários, posts, produtos) são identificados por URLs únicas e bem definidas.
-- Operações CRUD: As operações CRUD (Create, Read, Update, Delete) são mapeadas para os métodos HTTP: POST, GET, PUT/PATCH e DELETE, respectivamente.
-- Stateless (Sem Estado): As requisições para o servidor devem conter todas as informações necessárias para que o servidor entenda e processe a requisição. Isso significa que o servidor não mantém informações sobre o estado do cliente entre requisições.
-- Padrão de Resposta: As respostas do servidor devem ser consistentes e seguir um padrão bem definido. Isso pode incluir o uso de códigos de status HTTP apropriados, como 200 (OK), 404 (Not Found), 500 (Internal Server Error), etc.
-- HATEOAS (Hypertext As The Engine Of Application State): Isso significa que as respostas da API devem conter links para recursos relacionados, permitindo a navegação e a descoberta da API de forma mais dinâmica.
+-  **Recursos Identificáveis:** Os recursos da API (por exemplo, usuários, posts, produtos) são identificados por URLs únicas e bem definidas.
+-  **Operações CRUD:** As operações CRUD (Create, Read, Update, Delete) são mapeadas para os métodos HTTP: POST, GET, PUT/PATCH e DELETE, respectivamente.
+- **Stateless (Sem Estado):** As requisições para o servidor devem conter todas as informações necessárias para que o servidor entenda e processe a requisição. Isso significa que o servidor não mantém informações sobre o estado do cliente entre requisições.
+- **Padrão de Resposta:** As respostas do servidor devem ser consistentes e seguir um padrão bem definido. Isso pode incluir o uso de códigos de status HTTP apropriados, como 200 (OK), 404 (Not Found), 500 (Internal Server Error), etc.
+- **HATEOAS (Hypertext As The Engine Of Application State):** Isso significa que as respostas da API devem conter links para recursos relacionados, permitindo a navegação e a descoberta da API de forma mais dinâmica.
 
 
 ***
